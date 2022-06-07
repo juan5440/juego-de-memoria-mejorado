@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>🎲Juego de Memoria</title>
+</head>
+<body>
+    <main>
+        <section class="section1">
+            <h1>🎲Juego de Memoria</h1>
+            <table>
+                <tr>
+                    <td><button id="0" ondblclick="destapar(0)"></button></td>
+                    <td><button id="1" ondblclick="destapar(1)"></button></td>
+                    <td><button id="2" ondblclick="destapar(2)"></button></td>
+                    <td><button id="3" ondblclick="destapar(3)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="4" ondblclick="destapar(4)"></button></td>
+                    <td><button id="5" ondblclick="destapar(5)"></button></td>
+                    <td><button id="6" ondblclick="destapar(6)"></button></td>
+                    <td><button id="7" ondblclick="destapar(7)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="8" ondblclick="destapar(8)"></button></td>
+                    <td><button id="9" ondblclick="destapar(9)"></button></td>
+                    <td><button id="10" ondblclick="destapar(10)"></button></td>
+                    <td><button id="11" ondblclick="destapar(11)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="12" ondblclick="destapar(12)"></button></td>
+                    <td><button id="13" ondblclick="destapar(13)"></button></td>
+                    <td><button id="14" ondblclick="destapar(14)"></button></td>
+                    <td><button id="15" ondblclick="destapar(15)"></button></td>
+                </tr>
+            </table>
+        </section>
+        <section class="section2">
+            <h2 id="aciertos" class="estadisticas">Aciertos: 0 </h2>
+            <h2 id="t-restante" class="estadisticas">Tiempo: 60 segundos</h2>
+            <h2 id="movimientos" class="estadisticas">Movimientos: 0</h2>
+        </section>
+        <img id="imagen" src="./imagenes/cha.png" alt="">
+    </main>
+    <footer>
+        <p>Juego programado por  <a href="">Gabriel_soto</a></p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
